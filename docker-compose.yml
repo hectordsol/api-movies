@@ -14,8 +14,8 @@ services:
     ports:
       - "8001:8001"
   database:
-    container_name: database
+    container_name: store
     restart: always
-    build: ./database
+    build: ./store
     ports:
       - "8004:8004"
